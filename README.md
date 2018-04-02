@@ -1,7 +1,7 @@
 .tmux
 =====
 
-Self-contained, pretty and versatile `.tmux.conf` configuration file.
+Self-contained, pretty and versatile `.tmux.conf` configuration file. Forked from gpakosz/.tmux but customized.
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif)
 
@@ -26,6 +26,8 @@ $ cp .tmux/.tmux.conf.local .
 
 Then proceed to [customize] your `~/.tmux.conf.local` copy.
 
+You can use install-tmux.sh to install tmux. You need to provide a numerical version number as a parameter for the script to run.
+ 
 [customize]: #enabling-the-powerline-look
 
 If you're a Vim user, setting the `$EDITOR` environment variable to `vim` will
