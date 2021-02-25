@@ -13,6 +13,15 @@
 # then uncomment the following line to make Meta + arrow keys mapping work
 #set -ga terminal-overrides "*:kUP3=\e[1;9A,*:kDN3=\e[1;9B,*:kRIT3=\e[1;9C,*:kLFT3=\e[1;9D"
 
+# use Alt-Arrow key to switch panes
+bind -n M-Left select-pane -L  # move left
+bind -n M-Down select-pane -D  # move down
+bind -n M-Up select-pane -U  # move up
+bind -n M-Right select-pane -R  # move right
+
+# use Shift-Arrow key to switch window
+bind -n S-Left previous-window
+bind -n S-Right next-window
 
 # -- windows & pane creation ---------------------------------------------------
 
